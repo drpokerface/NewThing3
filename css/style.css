@@ -312,8 +312,6 @@ footer {
 }
 */
 /*---------------------------------------
-    Intro section     height: 100vh;  
-    background: url('../images/img.png') 50% 0 repeat-y fixed;
     -webkit-background-size: 50%;
     background-size: 50%;
     height: 30vh;
@@ -321,8 +319,8 @@ footer {
 -----------------------------------------*/
 #intro {
     background: url('../images/img.png') 50% 0 repeat-y fixed;
-    -webkit-background-size: 50%;
-    background-size: 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
@@ -333,7 +331,7 @@ footer {
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-    height: 30vh;
+    height: 100vh;
     text-align: center;
 	
 color: #222;
