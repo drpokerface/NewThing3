@@ -314,11 +314,15 @@ footer {
 /*---------------------------------------
     Intro section     height: 100vh;  
     background: url('../images/img.png') 50% 0 repeat-y fixed;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    height: 30vh;
+    height: 70vh;
 -----------------------------------------*/
 #intro {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: url('../images/img.png') 50% 0 repeat-y fixed;
+    -webkit-background-size: 50%;
+    background-size: 50%;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
@@ -334,7 +338,7 @@ footer {
 	
 color: #222;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
